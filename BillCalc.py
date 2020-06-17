@@ -1,0 +1,11 @@
+bill= input("What is your bill")
+number= input("How much percent do want to tip")
+percent= int(number)/100
+tip= percent*int(bill)
+total= int(bill)+int(tip)
+coupon= input("If you have a coupon then then type in how much it is worth, if not type in a zero")
+ctotal= total-int(coupon)
+fund= input("How much would u like to donate to my college fund")
+print ("Your tip should be $"+ str(tip)) 
+ffund =int(ctotal)+int(fund)
+print ("Your total with your tip, coupon, and donation should be $"+ str(ffund))
